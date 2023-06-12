@@ -122,7 +122,7 @@ const Home = () => {
           </div>
           <div className="flex items-center gap-2 mt-10">
             <input
-              placeholder={`👋 Hello ${authUser}, What to do Today?`}
+              placeholder={`👋 Hello , What to do Today?`}
               type="text"
               className="font-semibold placeholder:text-gray-500 border-[2px] border-black h-[60px] grow shadow-sm rounded-md px-4 focus-visible:outline-purple-400 text-lg transition-all duration-300"
               autoFocus
