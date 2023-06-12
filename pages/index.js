@@ -102,7 +102,7 @@ const Home = () => {
         <GoSignOut size={18} />
         <span>Logout</span>
       </div>
-      <div className="max-w-3xl mx-auto mt-5 p-8">
+      <div className="max-w-3xl mx-auto mt-5 p-5">
         <Player
           src="https://assets2.lottiefiles.com/packages/lf20_yfsmbm0r.json"
           className="player"
@@ -111,12 +111,12 @@ const Home = () => {
           loop
           speed={0.5}
         />
-        <div className="bg-white m-6 p-3 sticky top-0">
+        <div className="bg-white m-1 p-2 sticky top-0">
           <div className="flex justify-center flex-col items-center">
             {/* <span className="text-7xl mb-10">📝</span> */}
 
             <h1 className="text-5xl md:text-7xl font-bold text-[#00ed64]">
-              ToDo's App
+              ToDo's
             </h1>
             <p className="italic pt-2">Made with ❤️ by Devesh</p>
           </div>
